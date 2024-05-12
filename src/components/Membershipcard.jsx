@@ -5,7 +5,7 @@ const MembershipCard = ({ title, price, description, setvalue }) => {
   const priceColor = price <= 10 ? 'bg-green-500' : price <= 20 ? 'bg-blue-500' : 'bg-purple-500';
 
   const changecartvalue = () => {
-    console.log("hello");
+    //console.log("hello");
     setvalue(prev => prev + 1);
   };
 
@@ -23,7 +23,7 @@ const MembershipCard = ({ title, price, description, setvalue }) => {
         </div>
         <button className={`text-center w-44 ${priceColor} my-3 py-1 rounded-lg `} onClick={changecartvalue}>Add to cart</button>
       </div>
-    </>
+    </> 
   );
 };
 

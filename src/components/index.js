@@ -1,8 +1,24 @@
-import Home from "./Home/Home";
 import Footer from "./Footer.jsx";
-import Freetrail from "./GetStarted/Freetrail.jsx";
-import Membership from "./Membership.jsx";
-import Bookclass from "./Bookclass.jsx";
-import Displayexercise from "./Displayexercise.jsx";
-import ExerciseBreak from "./Exercisebreak.jsx";
-export  { Home, Footer , Freetrail , Membership , Bookclass, Displayexercise };
+import Loginform from "./Loginform.jsx";
+import Logo from "./Logo.jsx";
+import Button from "./Button.jsx";
+import Protected from "./Protected.jsx";
+import Signupform from "./Signupform.jsx";
+import Header from "./Header.jsx"
+import Cardgenre from "./Cardgenre.jsx"
+import Input from "./Input.jsx"
+import Container from "./Container.jsx";
+import Logout from "./Logoutbtn.jsx";
+export {
+
+  Footer,
+  Protected,
+  Button,
+  Logo,
+  Loginform,
+  Header,
+  Signupform , 
+  Cardgenre ,
+  Input,
+  Container
+};

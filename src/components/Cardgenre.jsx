@@ -5,7 +5,7 @@ function Cardgenre({genre , source}) {
   return (
     <>
     
-      <Link to={genre}>
+      <Link to={`/streak/${genre}`}>
         <div className="rounded-2xl overflow-hidden shadow-lg w-48  text-black hover:shadow-black">
             <h1 className=""></h1>
           <img
