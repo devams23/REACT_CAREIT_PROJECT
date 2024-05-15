@@ -11,7 +11,6 @@ function Displayexercise() {
   const [isBreak, setIsBreak] = useState(false);
   const [currentGifId, setCurrentGifId] = useState(0);
   const { exercisename } = useParams();
-  const [streaks, setstreaks] = useState(null)
   const fileid = useSelector((state) => state.auth.fileid);
 
   useEffect(() => {
