@@ -125,7 +125,7 @@ function Displayexercise() {
             
           </div>
           <Link to={`/streak/${exercisename}`}>
-              <Button bgcolor='red-500' >
+              <Button classname='bg-green-500 mx-80 my-5'>
                 Done
               </Button>
           </Link>
