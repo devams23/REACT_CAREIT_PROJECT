@@ -80,7 +80,7 @@ function Login() {
                 />
                 <Button
                 type="submit"
-                className="w-full"
+                classname="w-full bg-blue-500 text-white"
                 >Sign in</Button>
             </div>
         </form>
